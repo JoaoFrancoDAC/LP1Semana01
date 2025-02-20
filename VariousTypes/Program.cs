@@ -37,6 +37,17 @@ namespace VariousTypes
             char anotherSigma = '\x2211';
             Console.WriteLine(anotherSigma);
 
+            double pi = 3.14159;
+            Console.WriteLine(pi);
+
+            float e = 2.71828f;
+            Console.WriteLine(e);
+
+            decimal randomNumber = 123456789.0123456789m;
+            Console.WriteLine(randomNumber);
+            
+
+
 
             
 
