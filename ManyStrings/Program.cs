@@ -10,14 +10,11 @@ namespace ManyStrings
             double xx = 1.23456;
             int ii = 19;
 
-            
             Console.WriteLine($"{xx:F2}");
-            Console.WriteLine($"Porcentagem com uma casa decimal do numero xx é: {xx:P1}");
-
-            Console.WriteLine($"{ii:X}");
-            Console.WriteLine($"ii formatado na notação de moeda de moeda: {ii:C}");
-
-
+            Console.WriteLine($"Porcentagem {xx:P1}");
+            Console.WriteLine($"hexadecimal {ii:X}");
+            Console.WriteLine($"moeda{ii:C}");
+            
             Console.OutputEncoding = System.Text.Encoding.UTF8; 
             Console.WriteLine("Hello LP1!");
 
