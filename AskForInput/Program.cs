@@ -19,11 +19,6 @@ namespace AskForInput
             Console.WriteLine($"real convertido para float: {real_convertido}");
 
             Console.WriteLine($"Soma dos dois numeros: {real_convertido + numero_inteiro}");
-
-
-
-
-
         }
     }
 }
