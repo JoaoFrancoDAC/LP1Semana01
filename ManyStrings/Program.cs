@@ -19,6 +19,21 @@ namespace ManyStrings
              string umaLetraPorLinha = "a\n b\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv";
              Console.WriteLine(umaLetraPorLinha);
 
+             string concatenacao = "Concatenando " + "strings em C#";
+             Console.WriteLine(concatenacao);
+
+             int numero = 10;
+             string concatenacaoComNumero = "Concatenando " + numero + " " + 1 + " " + concatenacao;
+             Console.WriteLine(concatenacaoComNumero);
+
+             Console.WriteLine($"Formatando usando a interpolacao: {numero}");
+             Console.WriteLine($"isso funciona?{10+numero}");
+
+             string interpolacao = $"Formatando usando a interpolacao: {numero} e {umaLetraPorLinha}";
+             Console.WriteLine(interpolacao);
+
+
+
 
         }
     }
