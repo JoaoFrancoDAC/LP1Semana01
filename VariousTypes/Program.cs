@@ -45,7 +45,12 @@ namespace VariousTypes
 
             decimal randomNumber = 123456789.0123456789m;
             Console.WriteLine(randomNumber);
-            
+
+            bool conditionTrue = 10>9;
+            Console.WriteLine(conditionTrue);
+
+            bool conditionFalse = 10<9;
+            Console.WriteLine(conditionFalse);
 
 
 
