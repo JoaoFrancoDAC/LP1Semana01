@@ -7,6 +7,17 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
+            double xx = 1.23456;
+            int ii = 19;
+
+            
+            Console.WriteLine($"{xx:F2}");
+            Console.WriteLine($"Porcentagem com uma casa decimal do numero xx é: {xx:P1}");
+
+            Console.WriteLine($"{ii:X}");
+            Console.WriteLine($"ii formatado na notação de moeda de moeda: {ii:C}");
+
+
             Console.OutputEncoding = System.Text.Encoding.UTF8; 
             Console.WriteLine("Hello LP1!");
 
