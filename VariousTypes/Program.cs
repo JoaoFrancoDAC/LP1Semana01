@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection.PortableExecutable;
+using System.Text;
 
 namespace VariousTypes
 {
@@ -6,6 +8,8 @@ namespace VariousTypes
     {
         private static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8; 
+
             int number = 1;
             Console.WriteLine(number);
 
@@ -15,10 +19,29 @@ namespace VariousTypes
             int hexadecimal_int = 0xFF;
             Console.WriteLine(hexadecimal_int);
 
-            uint second_number = 123456789;
+            uint second_number = 123456789u;
             Console.WriteLine(second_number);
 
+            char copyrightSymbol = '\u00A9';
+            Console.WriteLine(copyrightSymbol);
 
+            char squareSymbol = '\u00A4';
+            Console.WriteLine(squareSymbol);
+
+            Char star = '\x2605';
+            Console.WriteLine(star);
+
+            char sigma = '\u03A3';
+            Console.WriteLine(sigma);
+
+            char anotherSigma = '\x2211';
+            Console.WriteLine(anotherSigma);
+
+
+            
+
+         
+        
         }
     }
 }
