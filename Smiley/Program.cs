@@ -13,8 +13,8 @@ namespace Smiley
             Console.WriteLine("Insere código:");
             string numero_hexadecimal = Console.ReadLine();
 
-            char caráter_unicode = (char)int.Parse(numero_hexadecimal, NumberStyles.HexNumber);
-            Console.WriteLine($"O caractere correspondente é: {caráter_unicode}");
+            char carater_unicode = (char)int.Parse(numero_hexadecimal, NumberStyles.HexNumber);
+            Console.WriteLine($"O caractere correspondente é: {carater_unicode}");
 
         }
     }
